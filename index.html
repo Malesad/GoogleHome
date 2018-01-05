@@ -3,21 +3,80 @@
 <head>
    <meta charset="utf-8">
    <title>Google</title>
+
+   <style type="text/css">
+   
+   	body{
+   		font-family: arial, sans-serif;
+   		font-size: small;
+   	}
+   	#center{
+   		display: block;
+   		text-align: -webkit-center;
+   		padding-left: 50px;
+   		padding-top: 70px;
+   	}
+   	#nav {
+   		top: -295px;
+   		right: 0;
+   		width: 100%;
+   	}
+   	#hptl{
+   		position: absolute;
+   		margin: 7px 0 0 10px;
+   	}
+   	#right {
+   		line-height: 24px;
+   		vertical-align: middle;
+   		white-space: nowrap;
+   		margin-right: 0!important;
+   		margin-left: 0!important;
+ 
+   		min-width: 220px;
+   		float: right;
+   	}
+   	#navigate {
+   		padding-top: 10px;
+   	}
+   	a{
+   		padding-right: 10px;
+   	}
+   	#squares{
+   		padding-right: 2px;
+   	}
+   	#signin{
+   		border: 1px solid #4285f4;
+   		font-weight: bold;
+   		outline: none;
+   		background: -webkit-linear-gradient(top,#4285f4, #4683ea);
+   		color: white;
+   		border-radius: 2px;
+   		padding: 8px;
+   		margin-left: 15px;
+   	}
+   	
+   </style>
 </head>
 <body>
-	<div>
-	  <a href="">About</a>
-	  <a href="">Store</a>
+  <div id="navigate">
+  <div id="nav">
+	<div id="hptl">
+	  <a>About</a>
+	  <a>Store</a>
     </div>
-	<div>
-	  <a href="">Gmail</a>
-	  <a href="">Images</a>
-	<div>
-		
-		<button>
+   </div>
+
+	<div id= "right">
+	  <a>Gmail</a>
+	  <a>Images</a>
+		<img src="Images/squares.png" height="17" id="squares">
+		<button id="signin">
 			Sign in
 		</button>
     </div>
-	<img src="Images/Google.png" alt = "GoogleStuff" height="92">
+    </div>
+    <center id= "center">
+	<img src="Images/Google.png" alt = "GoogleStuff" style="padding-top:109px;" width="272" height="92">
+   </center>
 </body>
 </html>
