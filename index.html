@@ -54,6 +54,16 @@
    		padding: 8px;
    		margin-left: 15px;
    	}
+   	#text-entry{
+   		position: absolute;
+   		z-index: 6;
+   		left: 520px;
+   		top:330px;
+   	}
+   	#textbox {
+   		padding: 5px 9px 0;
+   		-webkit-box-sizing: border-box;
+   	}
    	
    </style>
 </head>
@@ -77,6 +87,20 @@
     </div>
     <center id= "center">
 	<img src="Images/Google.png" alt = "GoogleStuff" style="padding-top:109px;" width="272" height="92">
-   </center>
+	</center>
+	
+	<input type="text" name="search" id="text-entry" size="40">
+    <div style="bottom: 0px; position: absolute;">
+    	<div>
+    		<style>
+              ._Cbu{
+              	color: rgba(0,0,0,.54);
+              	padding-left: 27px;
+              	margin-left: 13px;
+              }
+    	   </style>
+    	   <div class="_Cbu"> </div>
+    	</div>
+    </div>
 </body>
 </html>
