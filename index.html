@@ -9,11 +9,12 @@
    	body{
    		font-family: arial, sans-serif;
    		font-size: small;
+   		margin: 0;
    	}
    	#center{
    		display: block;
    		text-align: -webkit-center;
-   		padding-left: 50px;
+   		padding-left: 20px;
    		padding-top: 70px;
    	}
    	#nav {
@@ -55,14 +56,43 @@
    		margin-left: 15px;
    	}
    	#text-entry{
-   		position: absolute;
+   		
    		z-index: 6;
-   		left: 520px;
+   		display: 
+   		left: 600px;
    		top:330px;
    	}
    	#textbox {
    		padding: 5px 9px 0;
    		-webkit-box-sizing: border-box;
+   	}
+   	#fbar{
+   		background: #f2f2f2;
+   		border-top: 1px solid #e4e4e4;
+   		line-height: 40px;
+   	    position: absolute;
+   	    bottom: 0;
+        width: 100%;
+        height: 40px;
+   		display: block;
+   		position: fixed;
+   		margin: 0;
+   	}
+   	 ul li{
+   		list-style-type: none;
+   		display: inline-block;
+   		padding-right: 5px;
+   	}
+   	#footer-left{
+   		padding-bottom: 20px;
+   		margin-left: 7px;
+
+   	}
+   	#footer-right{
+   		
+   		float: right;
+   		position: relative;
+   		padding-bottom: 100px;
    	}
    	
    </style>
@@ -89,18 +119,18 @@
 	<img src="Images/Google.png" alt = "GoogleStuff" style="padding-top:109px;" width="272" height="92">
 	</center>
 	
-	<input type="text" name="search" id="text-entry" size="40">
-    <div style="bottom: 0px; position: absolute;">
-    	<div>
-    		<style>
-              ._Cbu{
-              	color: rgba(0,0,0,.54);
-              	padding-left: 27px;
-              	margin-left: 13px;
-              }
-    	   </style>
-    	   <div class="_Cbu"> </div>
+	<!--<input type="text" name="search" id="text-entry" size="40">-->
+    <footer id="fbar">
+    	   <div id= "footer-left">
+    		  <a>Advertising</a>
+    		  <a>Business</a>    		
+    	   </div>
+    	<div id= "footer-right">
+    		
+    		  <a>Privacy</a>
+    		  <a>Terms</a>
+    		  <a>Settings</a>	
     	</div>
-    </div>
+    </footer>
 </body>
 </html>
